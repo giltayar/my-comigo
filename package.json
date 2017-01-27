@@ -1,0 +1,27 @@
+{
+  "name": "my-comigo",
+  "version": "1.0.0",
+  "description": "An HTML/CSS exercise to duplicate the comigo style",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.9.13",
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start": "live-server ./site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giltayar/my-comigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giltayar/my-comigo/issues"
+  },
+  "homepage": "https://github.com/giltayar/my-comigo#readme"
+}
