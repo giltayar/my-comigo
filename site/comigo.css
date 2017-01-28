@@ -1,0 +1,59 @@
+body {
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** NAV **/
+
+div.nav li {
+  list-style: none;
+}
+
+div.nav a {
+  font-size: 0.8rem;
+  color: #3d3d3d;
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+div.nav a:hover {
+  color: #f14848;
+}
+
+div.nav li.selected a {
+  color: #f14848;
+  font-weight: bold;
+}
+
+/** Nav Button **/
+
+a.nav-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  background-color: #f14848;
+  font-size: 0.8rem;
+}
+
+/** HEADINGS **/
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/** FOOTER **/
+footer {
+  font-size: 0.5rem;
+  font-weight: 100;
+}
+
+footer li {
+  list-style: none;
+}
