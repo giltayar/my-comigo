@@ -1,7 +1,6 @@
 body {
   font-size: 100%;
   font-family: 'Roboto', sans-serif;
-  body: 100%;
 }
 
 /** NAV **/
@@ -88,7 +87,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  text-align: center;
   margin: 0;
 }
 
@@ -107,9 +105,9 @@ footer li {
 .cover {
   width: 100%;
   padding-top: 30%;
-  color: #fff;
-  position: absolute;
+  position: relative;
   text-align: center;
+  overflow: auto;
 }
 
 
@@ -123,7 +121,76 @@ footer li {
   margin: 0;
 }
 
+.cover h3 {
+  text-align: center;
+}
+
 .experience-intelligence {
+  color: #fff;
   background-image: url(assets/other/homepage-featured-new-1920x745.jpg);
   background-size: cover;
+}
+
+.cover.engage-viewers {
+  color: #fff;
+  background-image: url(assets/videos/video-soccer-750x422.jpg);
+  background-size: cover;
+  text-align: left;
+}
+.cover.engage-viewers div {
+  top: 0;
+  height: 100%;
+}
+
+.engage-viewers .main-message {
+  width: 30%;
+  margin: 0;
+  padding-left: 5%;
+  float: left;
+  text-align: left;
+}
+
+.engage-viewers h3 {
+  text-align: left;
+}
+
+.engage-viewers .services {
+  float: right;
+  width: 60%;
+  position: relative;
+  height: 100%;
+}
+
+.engage-viewers h4 {
+  margin-bottom: 0;
+  cursor: default;
+}
+
+.engage-viewers h4:hover {
+  color: #f14848;
+}
+
+.engage-viewers .services p {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 60%;
+  padding: 0;
+  margin-top: 20px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.engage-viewers .services section:first-child p {
+  display: block;
+}
+
+.engage-viewers .services .pedia p {
+  background-image: url(assets/img/sport-pedia.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 50px;
+  background-position-x: center;
 }
